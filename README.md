@@ -7,7 +7,7 @@ resequencing of 18 chicken from two distinct experimental lines and identify SNP
 INDELs in a QTL region on chromosome 2 previously associated with breast muscle, and
 characterize the variants to identify potentially function ones and propose candidate mutations
 for future studies.
-  * Samtools.sh
+  * samtools.sh
   * VCF_tools.R
   
 #### Status
