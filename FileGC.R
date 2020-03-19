@@ -84,11 +84,11 @@
 #PBS -l mem=30gb
 #PBS -o "/path/"erroGCcontent2.out
 
-module load bio/bedtools-2.26.0 
+    module load bio/bedtools-2.26.0 
 
-cd "/path/"
+    cd "/path/"
   
-To calculate the GC % in a window of 1KB (500pb from both side of probe)
+#To calculate the GC % in a window of 1KB (500pb from both side of probe)
   
-bedtools nuc -fi /path/genome.fa -bed intervalGC_GG50_2.bed > result_GC_GG50.txt
+    bedtools nuc -fi /path/genome.fa -bed intervalGC_GG50_2.bed > result_GC_GG50.txt
 
