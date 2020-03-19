@@ -16,11 +16,13 @@ Project is: _finished_
 > To identify, characterize and validate CNVs in the genome of two experimental
 populations of chickens from Embrapa Swine and Poultry National Research Centre. And
 perform a genome-wide association study of CN state with quantitative breast muscle traits.
+  * APT_GenotypingData.sh
   * FileGC.R
   * CNV_GenomicWaveCorrection.R
   * CNV_PBfile.sh
   * CNV_TrainHMM.sh
   * CNV_Detection.sh
+ 
   
 #### Status
 Project is: _finished_
