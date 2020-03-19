@@ -4,7 +4,7 @@
 #### Date: 10 June 2017
 #################
 
-# Input: lista_animals.txt (after the genomic wave correction)
+# Input: lista_animals.txt (after the genomic wave correction) and animais_GG50.pfb (pfb file)
 
 ########### SCRIPT
 #!/bin/bash
@@ -25,4 +25,4 @@
   
 #Train the HMM using an initial HMM file using the train option and write an output called Test.hmm
   
-    detect_cnv.pl --train -hmm hhall.hmm -pfb animaisadjusted_GG50.pfb.txt -log Train_2.log --listfile lista_animaisGG50_adjusted.txt -out Test2_GG50 -lastchr 33
+    detect_cnv.pl --train -hmm hhall.hmm -pfb animais_GG50.pfb -log Train_2.log --listfile lista_animals.txt -out HMM_GG50 -lastchr 33
